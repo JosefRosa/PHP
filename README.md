@@ -1,6 +1,6 @@
 # API
 
-F1:
+F1
 - http://localhost/[názevsouboru]/?o=[názevoperátoru]&n=[prvníčíslo],[druhéčíslo]
 
 F2
