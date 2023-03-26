@@ -104,3 +104,6 @@ $entity = new Entity($db);
 $data = $entity->getAll();
 $table = new HTMLTable();
 echo $table->generate($data);
+
+
+##delano s Tomasem Fujerou 
