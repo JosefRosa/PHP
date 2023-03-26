@@ -19,9 +19,6 @@ class MySQL implements IDB
         if (!$result) {
             return [];
         }
-        $rows = mysqli_fetch_all($result, MYSQLI_ASSOC);
-        mysqli_free_result($result);
-        return $rows;
     }
 
     public function insert(string $table, array $data): bool {
