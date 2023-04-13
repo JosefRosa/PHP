@@ -53,7 +53,7 @@
 				<th>Název</th>
 				<th>Procenta alkoholu (%)</th>
 			</tr>
-			<?php include("index.php"); ?>
+			<?php include("pivo.php"); ?>
 		</thead>
 		<tbody>
 		</tbody>
