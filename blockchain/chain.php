@@ -1,4 +1,5 @@
 <?php
+Require("block.php");
 class Chain implements IChain {
     private array $blocks = [];
 
