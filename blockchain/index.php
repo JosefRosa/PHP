@@ -1,7 +1,7 @@
 <?php
-require "";
-require "";
-require "";
+require "Block.php";
+require "Ichain.php";
+require "chain.php";
 $ch = (new Chain)
 
     ->addBlock(new Block("Varnsdorf", 0, date('Y-m-d H:i:s'), ""))
