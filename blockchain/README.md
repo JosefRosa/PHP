@@ -5,6 +5,7 @@
 Použití:
 
   Program pracuje s úložištěm pomocí třídy Chain, která implementuje rozhraní IChain. Úložiště se skládá z řetězce bloků, každý blok je reprezentován instancí třídy Block. Třída Block obsahuje minimálně atributy id, dttm (datum a čas uzavření bloku a podpisu), hash a nějaký content.
+  
 ![chain uml](https://user-images.githubusercontent.com/76937639/236701484-77907228-71d5-4a9e-8f7f-9a5c4e9d9e3e.png)
 
 
