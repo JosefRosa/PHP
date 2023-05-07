@@ -8,20 +8,20 @@ Použití:
 ![chain uml](https://user-images.githubusercontent.com/76937639/236701484-77907228-71d5-4a9e-8f7f-9a5c4e9d9e3e.png)
 
 
--Rozhraní IChain
+Rozhraní IChain
 
 IChain je rozhraní, které definuje základní operace, které úložiště musí podporovat:
 
-addBlock(Block $block): static - přidá nový blok do řetězu
-getBlock(int $id): ?Block - vrátí blok s daným ID, nebo null, pokud blok neexistuje
-getLastBlock(): ?Block - vrátí poslední blok v řetězu, nebo null, pokud řetěz neobsahuje žádné bloky
-isValid(): bool - ověří platnost celého řetězu bloků, tedy zda každý blok je podepsán svým předchůdcem a zda nedošlo k manipulaci s bloky
+-addBlock(Block $block): static - přidá nový blok do řetězu
+-getBlock(int $id): ?Block - vrátí blok s daným ID, nebo null, pokud blok neexistuje
+-getLastBlock(): ?Block - vrátí poslední blok v řetězu, nebo null, pokud řetěz neobsahuje žádné bloky
+-isValid(): bool - ověří platnost celého řetězu bloků, tedy zda každý blok je podepsán svým předchůdcem a zda nedošlo k manipulaci s bloky
 
--Třída Block
+Třída Block
 
 Třída Block reprezentuje jeden blok v řetězu. Obsahuje následující atributy:
 
-id - identifikátor bloku
-dttm - datum a čas uzavření bloku a podpisu
-hash - podpis bloku, vypočítaný pomocí hash funkce
-content - libovolné data, která jsou součástí bloku
+1.id - identifikátor bloku
+2.dttm - datum a čas uzavření bloku a podpisu
+3.hash - podpis bloku, vypočítaný pomocí hash funkce
+4.content - libovolné data, která jsou součástí bloku
