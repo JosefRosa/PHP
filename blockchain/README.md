@@ -32,3 +32,12 @@ Třída Block reprezentuje jeden blok v řetězu. Obsahuje následující atribu
 3.hash - podpis bloku, vypočítaný pomocí hash funkce
 
 4.content - libovolné data, která jsou součástí bloku
+
+
+  UML class diagram:
+  
+  
+  ![Uml blockchain](https://user-images.githubusercontent.com/76937639/236701919-368c2cbc-bf7d-46b9-b4d4-1eea2294784e.png)
+
+  
+  
