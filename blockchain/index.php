@@ -1,4 +1,7 @@
 <?php
+require "";
+require "";
+require "";
 $ch = (new Chain)
 
     ->addBlock(new Block("Varnsdorf", 0, date('Y-m-d H:i:s'), ""))
